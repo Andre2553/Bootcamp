@@ -1,34 +1,9 @@
-<!DOCTYPE html>
-<html>
-
-    <head>
-        <title>
-            Andre
-        </title>
-        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-        <link rel= "icon" href="favicon.ico" type="image/x-icon"/>
-        <link rel="stylesheet" href="style.css">
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+{% extends "layout.html" %}
+{% block link %}
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
-
-    
-
-
-    </head>
-
-    <body>
-       <header>
-           
-
-            <div class="links">
-             <a href="https://discordapp.com/invite/gCRAFhc"target="blank">Comunidade </a>
-             <a href="mailto:oi@rocketseat.com.br"target="blank">Email</a>
-             <a href="tel:+5547992078767">Telefone</a>
-             <a href="/index.html">Sobre</a>
-             <a href="/portifolio.html">Conteúdos</a>
-             </div>
-        </header>
-
+{% endblock%}
+{% block content %}
         
         <div >
             <h1 id="Conteudo">
@@ -113,5 +88,4 @@
 
         </div>
         <script src="scripts.js"></script>
-    </body>
-</html>
+{% endblock %}
