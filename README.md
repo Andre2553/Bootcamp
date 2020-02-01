@@ -11,7 +11,7 @@
 <blockquote align="center">“Step by step”!</blockquote>
 
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/rocketseat/bootcamp-launchbase-desafios-01?color=%23F7DF1E">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/Andre2553/Bootcamp?color=%23F7DF1E">
 
   
 
@@ -34,16 +34,17 @@
 - [Elementos principais do HTML](materiais/html.pdf)
 - [Propriedades importantes no CSS](materiais/css.pdf)
 
+
 ## 🚀 Exercises
 
-- JavaScript- Doing logical exercises
-- HTML/CSS/JavaScript- Creating a Website
-- Back-end - Creating a Server
+- Front-end folder - Website Scripts
+- JavaScript_exercise folder - logic scripts
+- server_bootcamp	folder - Server
 
 ## 📅 Technologies
 - JavaScript
 - HTML
--CSS
+- CSS
 
 ---
 
