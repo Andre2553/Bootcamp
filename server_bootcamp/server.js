@@ -1,6 +1,7 @@
 const express = require('express')
 const server = express()
 const nunjucks = require('nunjucks')
+const videos = require("./data")
 
 server.set("view engine", "html")
 
@@ -10,11 +11,11 @@ express:server
 })
 
 server.get("/", function(req,res){
-    return res.render("about")
+    return res.render("about.njk")
 })
 
 server.get("/portifolio", function(req,res){
-    return res.render("portifolio")
+    return res.render("portifolio.njk", { items :videos })
 })
 server.listen(5000, function(){
 console.log('run')

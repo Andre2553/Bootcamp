@@ -1,0 +1,54 @@
+{% extends "layout.njk" %}
+{% block link %}
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+{% endblock%}
+{% block content %}
+        
+        <div >
+            <h1 id="Conteudo">
+                Conteúdos
+            </h1>
+
+        </div> 
+        <section class="cards" >
+            {% for item in items %}
+            <div class="card" id="{{item.id}}">
+                
+                <div class="card_image_container">
+                    <img src="{{item.video}}" alt="{{item.id}}">
+                    
+                   
+                
+                </div>
+                <div class="card_inform">
+                <p> {{item.card_inform}}</p>
+                </div>
+                <div>
+                <p class=" card_price">{{item.price}}</p>
+                </div>
+                
+
+            </div>
+            {% endfor %}}
+
+
+
+        </section>
+        <div class="modal_overlay">
+                <div class="modal">
+                    <a class="close_modal">
+                        <i class="material-icons">close</i>
+                    </a>
+                    <a class="maximize_modal">
+                        <i class="material-icons">maximize</i>
+                    </a>
+                    <div class="modal_content">
+                        <iframe src="" frameborder="0"></iframe>
+                    </div>
+                </div>
+               
+
+        </div>
+        <script src="scripts.js"></script>
+{% endblock %}
