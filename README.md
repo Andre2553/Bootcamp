@@ -25,7 +25,7 @@
 <p align="center">
   <a href="#-materials">Materials</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-exercises">Exercises</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; 
+  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;
   
 </p>
 
@@ -48,4 +48,4 @@
 
 ---
 
-Developed ♥ by Andre :wave: [LinkdIn](https://www.linkedin.com/in/andrerodrigueslima)
+Developed ♥ by Andre :wave: [LinkedIn](https://www.linkedin.com/in/andrerodrigueslima)
