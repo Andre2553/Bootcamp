@@ -13,7 +13,7 @@
             
             <div id="Title">
             
-                <h1>Rocketseat</h1>
+                <h1>{{about.title}}</h1>
     
             </div>
             <div id="Description">
@@ -27,18 +27,17 @@
             </div>
 
             <ul>
-                <li>JavaScript</li>
-                <li>HTML</li>
-                <li>React</li>
-                <li>React Native</li>
+            {% for tecs in about.tec %}
+                <li>{{tecs.name}}</li>
                 
+            {% endfor %}}  
 
             </ul>
 
             <div class="links" id="Redes">
-                <a href="https://github.com/Rocketseat">GitHub</a>
-                <a href="https://www.instagram.com/rocketseat_oficial/">Instagram</a>
-                <a href="https://www.facebook.com/rocketseat">Facebook</a>
+                {% for link in about.links%}
+                <a href="{{link.url}}">{{link.name}}</a>
+                {% endfor %}
             </div>
 
         </div> 
