@@ -1,0 +1,39 @@
+{% extends "layout.njk" %}
+{% block link %}
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+{% endblock%}
+{% block content %}
+        
+        <div >
+            <h1 id="Conteudo">
+                {{item.id}}
+            </h1>
+
+        </div> 
+        <section class="Painel" >
+            
+            <div class="card_site" id="{{item.id}}">
+                
+                <div class="card_site_container">
+                    <iframe src="{{item.link}}" frameborder="0"></iframe>
+                   
+                
+                </div>
+                <div class="card_inform_site">
+                <p> {{item.card_inform}}</p>
+                </div>
+                <div>
+                <p class=" card_price">{{item.price}}</p>
+                </div>
+                
+
+            </div>
+            
+
+
+
+        </section>
+      
+        
+{% endblock %}

@@ -35,6 +35,19 @@ server.get("/", function(req,res){
 server.get("/portifolio", function(req,res){
     return res.render("portifolio.njk", { items :videos })
 })
+
+server.get("/courses/:id", function(req, res){
+  const id = req.params.id
+  const video = videos.find(function(video){
+    if(video.id == id){
+     return true
+     }
+  })
+  if(!video){
+     return res.send("Video not found")
+   }
+  return res.render("video.njk", { item:video })
+})
 server.listen(5000, function(){
 console.log('run')
 

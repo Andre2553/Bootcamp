@@ -200,3 +200,39 @@ iframe{
     
     transition: color 1000ms;
 }
+/* Video Page */
+
+.Painel{
+    max-width: 900px;
+    margin: auto;
+}
+.card_site{
+    
+    height: 1000px;
+   width: 900px;
+   background-color: #000000;
+  text-align: center;
+  
+  padding-top: 30px;
+  cursor: pointer;
+  margin-bottom: 500px;
+  margin-top: 100px;  
+}
+.card_site_container{
+position: relative;
+height: 80%;
+width: 100%;
+}
+.card_site_container iframe{
+    position: relative;
+    text-align: center;
+}
+
+.card_inform_site{
+position: relative;
+  padding-top: 30px;
+     padding-bottom: 60px;
+     color: white;
+     text-align: center;
+     font-size: 22px;
+}
