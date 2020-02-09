@@ -31,8 +31,8 @@
 
 ## 🗄 Materials
 
-- [Elementos principais do HTML](materiais/html.pdf)
-- [Propriedades importantes no CSS](materiais/css.pdf)
+- [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element)
+- [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Reference)
 
 
 ## 🚀 Exercises
@@ -40,6 +40,7 @@
 - Front-end folder - Website Scripts
 - JavaScript_exercise folder - logic scripts
 - server_bootcamp	folder - Server
+- Gym Manager folder - App
 
 ## 📅 Technologies
 - JavaScript
