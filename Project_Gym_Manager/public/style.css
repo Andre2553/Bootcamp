@@ -58,7 +58,35 @@ color:rebeccapurple;
     transition: width 700ms ease-in-out ;
 } 
 
+/* card */
+.card{
+        background-color: white;
+        width: 800px;
+        height: 400px;
 
+        margin: 45px auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        box-shadow: 5px 20px 20px 2px rgba(122, 120, 120, 0.452);
+        
+        animation-name: up;
+        animation-duration: 1s;
+        animation-timing-function: ease-in-out;
+        animation-delay: 1s;
+        opacity: 0;
+        animation-fill-mode: forwards;
+
+}
+@keyframes up{
+    from{
+    
+    transform:translateY(12px);
+    }
+    to{
+    opacity: 1;
+    }
+}
 
 
  
