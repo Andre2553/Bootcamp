@@ -9,7 +9,9 @@ routes.get('/instructors',function(req, res){
     return res.render("instructors/index.njk")
 
 })
-
+routes.get('/instructors/create', function(req, res){
+    return res.render("instructors/create.njk")
+})
 
 routes.get('/members', function(req, res){
     return res.send("members")
