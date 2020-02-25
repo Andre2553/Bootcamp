@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
 :root{
     --primary_color: black;
+   
 }
 *{
     margin: 0;
@@ -129,5 +130,30 @@ color:rebeccapurple;
     text-transform: uppercase;
     font-size: 12px;
 }
+input{
+    width:100%;
+    color: #555;
+    font-weight: bold;
+    font-size: 18px;
+}
+input[type="radio"]{
+    width: initial;
+    margin-right: 4px;
+    
+}
+input::placeholder{
+    font-size: 16px;
+    font-weight: normal;
+}
+button[type="submit"]{
+    padding:8px 32px;
+    background-color: black;
+    border-radius: 4px;
+    color: white;
+    margin-top: 32px;
+    width: 100%;
+    font-size: 16px;
+}
+
 
  
