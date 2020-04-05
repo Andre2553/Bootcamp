@@ -1,0 +1,18 @@
+{
+  "instructors": [
+    {
+      "avatar_url": "https://google.com",
+      "name": "Andre Rodrigues Lima",
+      "birthday": "2001-04-10",
+      "gender": "M",
+      "service": "SADD, DSDSAD"
+    },
+    {
+      "avatar_url": "https://google.com",
+      "name": "Zad",
+      "birthday": "2002-04-16",
+      "gender": "M",
+      "service": "SADD, DSDSAD"
+    }
+  ]
+}
